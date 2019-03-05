@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Naruto wiki ",
+  "main": "index.js",
+  "scripts": {
+    "run": "nodemon server.js",
+    "start": "forever start server.js",
+    "stop": "forever stop server.js",
+    "test": "mocha ./api/tests --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16"
+  }
+}
